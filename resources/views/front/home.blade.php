@@ -3,7 +3,7 @@
 @section('content')
 
 	<!-- Start Home Section -->
-	<section id="home" class="hero-wrap js-fullheight" style="background-image: url(images/ok_me_5.jpg);" data-stellar-background-ratio="0.5">
+	<section id="home" class="hero-wrap js-fullheight" style="background-image: url({{ asset('asset/front/images/ok_me_5.jpg') }});" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 		  <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -34,7 +34,7 @@
 				  <div class="col-md-6 col-lg-6 d-flex">
 					  <div class="img-about img d-flex align-items-stretch">
 						  <div class="overlay"></div>
-						  <div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/ok_me_11.jpg);">
+						  <div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url({{ asset('asset/front/images/ok_me_11.jpg') }});">
 							  <div class="video justify-content-center">
 									  <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
 										  <span class="ion-ios-play"></span>
@@ -64,8 +64,8 @@
 					</div>
 					</div>
 					<div class="d-flex w-100">
-					  <div class="img img-about-2 mr-2" style="background-image: url(images/ok_bg_2.jpg);"></div>
-					  <div class="img img-about-2 ml-2" style="background-image: url(images/ok_bg_3.jpg);"></div>
+					  <div class="img img-about-2 mr-2" style="background-image: url({{ asset('asset/front/images/ok_bg_2.jpg') }});"></div>
+					  <div class="img img-about-2 ml-2" style="background-image: url({{ asset('asset/front/images/ok_bg_3.jpg') }});"></div>
 					</div>
 					<blockquote class="blockquote mt-5">
 						<p class="mb-2">"Whatever is thinkable, I believe is doable..."</p>
@@ -92,7 +92,7 @@
 						<div class="row">
 					  <div class="col-md-4">
 						  <div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img src="images/flaticons/002-coding-1.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="icon"><img src="{{ asset('asset/front/images/flaticons/002-coding-1.png') }}" style="margin-bottom: 1rem;" alt="coding"></div>
 						<div class="media-body">
 						  <h3 class="heading mb-3">Fullstack Web Development</h3>
 						  <p>
@@ -104,7 +104,7 @@
 					  </div>
 					  <div class="col-md-4">
 						  <div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img src="images/flaticons/003-branding.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="icon"><img src="{{ asset('asset/front/images/flaticons/003-branding.png') }}" style="margin-bottom: 1rem;" alt="coding"></div>
 						<div class="media-body">
 						  <h3 class="heading mb-3">Brand Identity development</h3>
 						  <p>
@@ -116,7 +116,7 @@
 					  </div>
 					  <div class="col-md-4">
 						  <div class="media block-6 services d-block ftco-animate">
-						<div class="icon"><img src="images/flaticons/007-vector.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="icon"><img src="{{ asset('asset/front/images/flaticons/007-vector.png') }}" style="margin-bottom: 1rem;" alt="coding"></div>
 						<div class="media-body">
 						  <h3 class="heading mb-3">Graphic Design</h3>
 						  <p>
@@ -130,7 +130,7 @@
 				  </div>
 			  </div>
 			  <div class="col-md-3 d-flex align-items-stretch">
-				  <div class="img w-100" style="background-image: url(images/ok_me_11.jpg);"></div>
+				  <div class="img w-100" style="background-image: url({{ asset('asset/front/images/ok_me_11.jpg') }});"></div>
 			  </div>
 		  </div>
 		  <div class="row progress-circle pt-md-5">
@@ -204,7 +204,7 @@
 						</div>
 					  </div>
 					  <div class="col-md-5 d-flex align-items-stretch">
-				  <div class="img w-100" style="background-image: url(images/ok_bg_4.jpg);"></div>
+				  <div class="img w-100" style="background-image: url({{ asset('asset/front/images/ok_bg_4.jpg') }});"></div>
 			  </div>
 				</div>
 			</div>
@@ -224,8 +224,8 @@
 			<div class="container-fluid px-md-0">
 		  <div class="row no-gutters">
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-1.jpg);">
-				  <a href="images/model-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-1.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -237,8 +237,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-2.jpg);">
-				  <a href="images/model-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-2.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -250,48 +250,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-3.jpg);">
-				  <a href="images/model-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-							  <span class="icon-expand"></span>
-						  </a>
-				  <div class="desc w-100 px-4">
-					<div class="text w-100 mb-3">
-						<span>Nature</span>
-						<h2><a href="work-single.html">Beautiful Work</a></h2>
-					</div>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-4.jpg);">
-				  <a href="images/model-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-							  <span class="icon-expand"></span>
-						  </a>
-				  <div class="desc w-100 px-4">
-					<div class="text w-100 mb-3">
-						<span>Nature</span>
-						<h2><a href="work-single.html">Beautiful Work</a></h2>
-					</div>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-5.jpg);">
-				  <a href="images/model-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-							  <span class="icon-expand"></span>
-						  </a>
-				  <div class="desc w-100 px-4">
-					<div class="text w-100 mb-3">
-						<span>Nature</span>
-						<h2><a href="work-single.html">Beautiful Work</a></h2>
-					</div>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-6.jpg);">
-				  <a href="images/model-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-3.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -304,8 +264,8 @@
 			</div>
   
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-7.jpg);">
-				  <a href="images/model-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-4.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -317,8 +277,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-8.jpg);">
-				  <a href="images/model-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-5.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-5.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -330,8 +290,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-9.jpg);">
-				  <a href="images/model-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-6.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-6.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -344,8 +304,8 @@
 			</div>
   
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-10.jpg);">
-				  <a href="images/model-10.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-7.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-7.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -357,8 +317,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-11.jpg);">
-				  <a href="images/model-11.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-8.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-8.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -370,8 +330,48 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-12.jpg);">
-				  <a href="images/model-12.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-9.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-9.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-10.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-10.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-11.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-11.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-12.jpg') }});">
+				  <a href="{{ asset('asset/front/images/model-12.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
