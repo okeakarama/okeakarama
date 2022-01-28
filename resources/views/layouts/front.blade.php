@@ -1,102 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>{{ $title ?? '' }} - {{  config('app.name', 'Laravel')  }}  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="keywords" content="Best online movie and show streaming platform" />
+  <head>
+    <title>Welcome to My Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
 
-  	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
 
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="{{ asset('asset/front/css/bootstrap.min.css') }}"/>
-	<link rel="stylesheet" href="{{ asset('asset/front/css/font-awesome.min.css') }}"/>
-	<link rel="stylesheet" href="{{ asset('asset/front/css/owl.carousel.min.css') }}"/>
-	<link rel="stylesheet" href="{{ asset('asset/front/css/slicknav.min.css') }}"/>
+    <link rel="stylesheet" href="css/aos.css">
 
-	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="{{ asset('asset/front/css/style.css') }}"/>
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  	<nav id="navbar" class="navbar">
+		  <ul class="nav-menu">
+		    <li>
+		      <a data-scroll="home" href="#home" class="dot active">
+		        <span>Home</span>
+		      </a>
+		    </li>
+		    <li>
+		      <a data-scroll="about" href="#about" class="dot">
+		        <span>About</span>
+		      </a>
+		    </li>
+		    <li>
+		      <a data-scroll="services" href="#services" class="dot">
+		        <span>Skills</span>
+		      </a>
+		    </li>
+		    <li>
+		      <a data-scroll="work" href="#work" class="dot">
+		        <span>Gallery</span>
+		      </a>
+		    </li>
+		    <li>
+		      <a data-scroll="testimonial" href="#testimonial" class="dot">
+		        <span>Testimony</span>
+		      </a>
+		    </li>
+		    <li>
+		      <a data-scroll="contact" href="#contact" class="dot">
+		        <span>Contact</span>
+		      </a>
+		    </li>
+		  </ul>
+		</nav>
+		<!-- End Nav Section -->
+
+
 
 	@yield('content')
 
-    <!-- Footer section -->
-	<footer class="footer-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-6 col-lg-7 order-lg-2">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>About us</h2>
-								<ul>
-									<li><a href="">About TG</a></li>
-									<li><a href="">Entrepreneurship</a></li>
-									<li><a href="">Life as a developer</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Podcast</h2>
-								<ul>
-									<li><a href="">Music</a></li>
-									<li><a href="">Subscription</a></li>
-									<li><a href="">Custom Music</a></li>
-									<li><a href="">Footage</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Playlists</h2>
-								<ul>
-									<li><a href="">Newsletter</a></li>
-									<li><a href="">Careers</a></li>
-									<li><a href="">Press</a></li>
-									<li><a href="">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6 col-lg-5 order-lg-1">
-					<img src="img/logo.png" alt="">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://abiatechhub.com" target="_blank">Abia Tech Hub</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					<div class="social-links">
-						<a href=""><i class="fa fa-instagram"></i></a>
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-youtube"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
-	
-	<!--====== Javascripts & Jquery ======-->
-	
-	<script src="{{ asset('asset/front/js/jquery-3.2.1.min.js') }}"></script>
-	<script src="{{ asset('asset/front/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('asset/front/js/jquery.slicknav.min.js') }}"></script>
-	<script src="{{ asset('asset/front/js/owl.carousel.min.js') }}"></script>
-	<script src="{{ asset('asset/front/js/mixitup.min.js') }}"></script>
-	<script src="{{ asset('asset/front/js/main.js') }}"></script>
 
-</body>
+<!-- Start Footer Section -->
+		<footer class="ftco-footer py-5">
+		  <div class="container text-center">
+		    <div class="row">
+          <div class="col-md-12 text-center">
 
+            <p>
+  				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://karamacreative.com" target="_blank">Karama Creative</a>
+  			</p>
+
+					  <ul class="ftco-footer-social p-0">
+              <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+			  <li class="ftco-animate"><a href="https://www.twitter.com/okeakarama"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/okeakarama"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/okeakarama"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+		  </div>
+		</footer>
+		<!-- End Footer Section -->
+   
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

@@ -2,567 +2,573 @@
 
 @section('content')
 
-	@include('front.menu')
-
-	<!-- Hero section -->
-	<section class="hero-section">
-		<div class="hero-slider owl-carousel">
-			<div class="hs-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="hs-text">
-								<h2><span>As I do, </span>I learn,<span> As I learn, </span>I do </h2>
-								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p> -->
-								<a href="podcast" class="site-btn">Listen to Podcast</a>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="hr-img">
-								<img src="asset/front/img/hero-bg.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="hs-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="hs-text">
-								<h2><span>Listen </span> to new music.</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
-								<a href="podcast" class="site-btn">Listen to Podcast</a>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="hr-img">
-								<img src="asset/front/img/hero-bg.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-		</div>
-	</section>
-	<!-- Hero section end -->
-
-	<!-- Category section -->
-	<section class="category-section spad">
-		<div class="container-fluid">
-			<div class="section-title">
-				<h2>Live Concert Playlist</h2>
-			</div>
-			<div class="container">
-				<div class="category-links">
-					<a href="" class="active">Genres</a>
-					<a href="">Artists</a>
-					<a href="">All Playlist</a>
-				</div>
-			</div>
-			<div class="category-items">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="category-item">
-							<img src="asset/front/img/playlist/9.jpg" alt="">
-							<div class="ci-text">
-								<h4>Micke Smith</h4>
-								<p>Live from Madrid</p>
-							</div>
-							<a href="artist.html" class="ci-link"><i class="fa fa-play"></i></a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="category-item">
-							<img src="asset/front/img/playlist/2.jpg" alt="">
-							<div class="ci-text">
-								<h4>Micke Smith</h4>
-								<p>Live from Madrid</p>
-							</div>
-							<a href="artist.html" class="ci-link"><i class="fa fa-play"></i></a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="category-item">
-							<img src="asset/front/img/playlist/7.jpg" alt="">
-							<div class="ci-text">
-								<h4>Micke Smith</h4>
-								<p>Live from Madrid</p>
-							</div>
-							<a href="artist.html" class="ci-link"><i class="fa fa-play"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Category section end -->
-
-	<!-- Songs section  -->
-	<section class="songs-section">
+	<!-- Start Home Section -->
+	<section id="home" class="hero-wrap js-fullheight" style="background-image: url(images/ok_me_5.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
 		<div class="container">
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/1.jpg" alt="">
-							<div class="song-info">
-								<h4>Jennifer Brown</h4>
-								<p>One Night in Ibiza</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1" data-url="asset/front/music-files/1.mp3"></div>
-								<div class="jp-audio jp_container_1" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-										<!-- Progress Bar -->
-										<div class="player_bars">
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
+		  <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+			<div class="col-lg-7 ftco-animate d-flex align-items-center">
+				<div class="text text-center">
+					<!-- <h1 class="logo"><a href="index.html"><span class="flaticon-camera-shutter"></span>Snapshot<small>Photographer / San Francisco</small></a></h1> -->
+							<h1 class="mb-4">I am <br>Nnana Ajah</h1>
+							<p class="mb-4">
+							  A full stack web developer, brand identity developer and graphic designer with over 6 years experience creating beauty.
+							  <br> Welcome to my World!
+						  </p>
+							<p class="mt-5">
+							  <a data-scroll="about" href="#about" class="btn-custom">
+								  About me <span class="ion-ios-arrow-round-forward"></span>
+							  </a>
+						  </p>
+			  </div>
 			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/2.jpg" alt="">
-							<div class="song-info">
-								<h4>Michael Smith</h4>
-								<p>Dream in colors</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2" data-url="asset/front/music-files/2.mp3"></div>
-								<div class="jp-audio jp_container_2" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/3.jpg" alt="">
-							<div class="song-info">
-								<h4>Indeed</h4>
-								<p>In the park</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_3" data-url="asset/front/music-files/3.mp3"></div>
-								<div class="jp-audio jp_container_3" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/4.jpg" alt="">
-							<div class="song-info">
-								<h4>Moon man</h4>
-								<p>Dream in colors</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_4" data-url="asset/front/music-files/4.mp3"></div>
-								<div class="jp-audio jp_container_4" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/5.jpg" alt="">
-							<div class="song-info">
-								<h4>Neens</h4>
-								<p>One Night in Ibiza</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_5" data-url="asset/front/music-files/5.mp3"></div>
-								<div class="jp-audio jp_container_5" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/6.jpg" alt="">
-							<div class="song-info">
-								<h4>The Smiths</h4>
-								<p>Dream in colors</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_6" data-url="asset/front/music-files/6.mp3"></div>
-								<div class="jp-audio jp_container_6" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/7.jpg" alt="">
-							<div class="song-info">
-								<h4>Don’t Stop</h4>
-								<p>Turn up the music</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_7" data-url="asset/front/music-files/7.mp3"></div>
-								<div class="jp-audio jp_container_7" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- song -->
-			<div class="song-item">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="song-info-box">
-							<img src="asset/front/img/songs/8.jpg" alt="">
-							<div class="song-info">
-								<h4>The Reds</h4>
-								<p>Love is in the air</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="single_player_container">
-							<div class="single_player">
-								<div class="jp-jplayer jplayer" data-ancestor=".jp_container_8" data-url="asset/front/music-files/8.mp3"></div>
-								<div class="jp-audio jp_container_8" role="application" aria-label="media player">
-									<div class="jp-gui jp-interface">
-
-										<!-- Player Controls -->
-										<div class="player_controls_box">
-											<button class="jp-prev player_button" tabindex="0"></button>
-											<button class="jp-play player_button" tabindex="0"></button>
-											<button class="jp-next player_button" tabindex="0"></button>
-											<button class="jp-stop player_button" tabindex="0"></button>
-										</div>
-
-										<!-- Progress Bar -->
-										<div class="player_bars">
-
-											<div class="jp-progress">
-												<div class="jp-seek-bar">
-													<div>
-														<div class="jp-play-bar"><div class="jp-current-time" role="timer" aria-label="time">0:00</div></div>
-													</div>
-												</div>
-											</div>
-											<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
-										</div>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="songs-links">
-							<a href=""><img src="asset/front/img/icons/p-1.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-2.png" alt=""></a>
-							<a href=""><img src="asset/front/img/icons/p-3.png" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="site-pagination pt-5 mt-5">
-				<a href="#" class="active">01.</a>
-				<a href="#">02.</a>
-				<a href="#">03.</a>
-				<a href="#">04.</a>
-			</div>
+		  </div>
 		</div>
-	</section>
-	<!-- Songs section end -->
+	  </section>
+		  <!-- End Home Section -->
+  
+		  <!-- Start About Me Section -->
+		  <section class="ftco-about img ftco-section" id="about">
+		  <div class="container">
+			  <div class="row d-flex no-gutters">
+				  <div class="col-md-6 col-lg-6 d-flex">
+					  <div class="img-about img d-flex align-items-stretch">
+						  <div class="overlay"></div>
+						  <div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/ok_me_11.jpg);">
+							  <div class="video justify-content-center">
+									  <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+										  <span class="ion-ios-play"></span>
+									</a>
+								  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-md-6 col-lg-6 pl-md-5">
+				<div class="heading-section ftco-animate">
+				  <h2 class="mb-4">Nnanna Ajah is a Web developer, <br>Graphic designer and Tutor</h2>
+				  <p>
+					  I am a Computer Science graduate from Gregory University, I also have a Master Degree in Computer Science in view.
+					  I have explored the tech space with focus on web based technologies and graphic design. I am a self-taught designer,
+					  with for over 6 years of experience creating beauty. I help brands pick a unique identity to stand out in the market. 
+					  I picked an interesting in programming and decided to major in web development because it is the most relateable.
+					  I am familiar with a few web technologies like 
+					  HTML, CSS, Javascript, React.js, Node.js, C# (ASP.NET), PHP (Laravel and Codeigniter) and Python (Django).
+				  </p>
+  
+				  <div class="counter-wrap ftco-animate d-flex my-md-4">
+					<div class="text">
+						<p class="mb-4">
+						  <span class="number" data-number="137">0</span>
+						  <span>Project complete</span>
+					  </p>
+					</div>
+					</div>
+					<div class="d-flex w-100">
+					  <div class="img img-about-2 mr-2" style="background-image: url(images/ok_bg_2.jpg);"></div>
+					  <div class="img img-about-2 ml-2" style="background-image: url(images/ok_bg_3.jpg);"></div>
+					</div>
+					<blockquote class="blockquote mt-5">
+						<p class="mb-2">"Whatever is thinkable, I believe is doable..."</p>
+						<span>&mdash; Nnanna Ajah </span>
+					</blockquote>
+				</div>
+			  </div>
+		  </div>
+		  </div>
+	  </section>
+		  <!-- End About Me Section -->
+  
+		  <!-- Start Services Section -->
+		  <section id="services" class="ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-5 heading-section ftco-animate pb-5">
+					  <h2 class="mb-4">My Skills</h2>
+					  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p> -->
+					</div>
+						</div>
+						<div class="row">
+					  <div class="col-md-4">
+						  <div class="media block-6 services d-block ftco-animate">
+						<div class="icon"><img src="images/flaticons/002-coding-1.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="media-body">
+						  <h3 class="heading mb-3">Fullstack Web Development</h3>
+						  <p>
+							  I have a good knowledge of web development tools like HTML, CSS, Javascript, Bootstrap, React.js, Node.js, C# (ASP.NET), 
+							  PHP, Python, MySQL and MongoDB.
+						  </p>
+						</div>
+					  </div> 
+					  </div>
+					  <div class="col-md-4">
+						  <div class="media block-6 services d-block ftco-animate">
+						<div class="icon"><img src="images/flaticons/003-branding.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="media-body">
+						  <h3 class="heading mb-3">Brand Identity development</h3>
+						  <p>
+							  I have mastered the skill of branding as I help brands get a unique identity to stand out amongst other competitors.
+							  Good branding never goes wrong.
+						  </p>
+						</div>
+					  </div> 
+					  </div>
+					  <div class="col-md-4">
+						  <div class="media block-6 services d-block ftco-animate">
+						<div class="icon"><img src="images/flaticons/007-vector.png" style="margin-bottom: 1rem;" alt="coding"></div>
+						<div class="media-body">
+						  <h3 class="heading mb-3">Graphic Design</h3>
+						  <p>
+							  I am familiar with graphics design concepts and principle which makes the difference. 
+							   My favourite tools include Photoshop, Illustrator, InDesign and CorelDraw.
+							  
+						  </p>
+						</div>
+					  </div> 
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-md-3 d-flex align-items-stretch">
+				  <div class="img w-100" style="background-image: url(images/ok_me_11.jpg);"></div>
+			  </div>
+		  </div>
+		  <div class="row progress-circle pt-md-5">
+			  <div class="col-md-7 order-md-last py-md-5">
+				  <div class="row">
+							<div class="col-md-4 mb-md-0 mb-4 ftco-animate">
+							<div class="">
+							  <h2 class="text-center mb-4">Development</h2>
+  
+							  <!-- Progress bar 1 -->
+							  <div class="progress mx-auto" data-value='80'>
+								<span class="progress-left">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<span class="progress-right">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								  <div class="h5">80<sup class="small">%</sup></div>
+								</div>
+							  </div>
+							  <!-- END -->
+							</div>
+						  </div>
+  
+						  <div class="col-md-4 mb-md-0 mb-4 ftco-animate">
+							<div class="">
+							  <h2 class="text-center mb-4">Branding</h2>
+  
+							  <!-- Progress bar 1 -->
+							  <div class="progress mx-auto" data-value='75'>
+								<span class="progress-left">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<span class="progress-right">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								  <div class="h5">75<sup class="small">%</sup></div>
+								</div>
+							  </div>
+							  <!-- END -->
+							</div>
+						  </div>
+  
+						  <div class="col-md-4 mb-md-0 mb-4 ftco-animate">
+							<div class="">
+							  <h2 class="text-center mb-4">Designing</h2>
+  
+							  <!-- Progress bar 1 -->
+							  <div class="progress mx-auto" data-value='90'>
+								<span class="progress-left">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<span class="progress-right">
+							<span class="progress-bar border-primary"></span>
+								</span>
+								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								  <div class="h5">90<sup class="small">%</sup></div>
+								</div>
+							  </div>
+							  <!-- END -->
+							</div>
+						  </div>
+  
+						  <div class="p-md-4 mt-4">
+							  <div class="col-md-8 ftco-animate">
+								  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</p>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-5 d-flex align-items-stretch">
+				  <div class="img w-100" style="background-image: url(images/ok_bg_4.jpg);"></div>
+			  </div>
+				</div>
+			</div>
+		  </section>  
+		  <!-- End Services Section -->
+  
+		  <!-- Start Testimonials Section -->
+		  <section id="work" class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4 heading-section text-center ftco-animate pb-5">
+			  <h2 class="mb-4">Selected Projects</h2>
+			  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+			</div>
+				</div>
+			</div> 
+			<div class="container-fluid px-md-0">
+		  <div class="row no-gutters">
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-1.jpg);">
+				  <a href="images/model-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-2.jpg);">
+				  <a href="images/model-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-3.jpg);">
+				  <a href="images/model-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-4.jpg);">
+				  <a href="images/model-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-5.jpg);">
+				  <a href="images/model-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-6.jpg);">
+				  <a href="images/model-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-7.jpg);">
+				  <a href="images/model-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-8.jpg);">
+				  <a href="images/model-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-9.jpg);">
+				  <a href="images/model-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+  
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-10.jpg);">
+				  <a href="images/model-10.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-11.jpg);">
+				  <a href="images/model-11.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 ftco-animate">
+			  <div class="model img d-flex align-items-end" style="background-image: url(images/model-12.jpg);">
+				  <a href="images/model-12.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+							  <span class="icon-expand"></span>
+						  </a>
+				  <div class="desc w-100 px-4">
+					<div class="text w-100 mb-3">
+						<span>Nature</span>
+						<h2><a href="work-single.html">Beautiful Work</a></h2>
+					</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div> 
+		  </section>
+		  <!-- End Project Section -->
+  
+		  <section class="ftco-section testimony-section" id="testimonial">
+			  <div class="container">
+				  <div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-4 heading-section ftco-animate">
+				<span class="subheading">Testimony</span>
+			  <h2 class="mb-4">Our satisfied customer says</h2>
+			  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+			</div>
+		  </div>
+		  <div class="row ftco-animate">
+			<div class="col-md-12">
+			  <div class="carousel-testimony owl-carousel">
+				<div class="item">
+				  <div class="testimony-wrap p-4 pb-5">
+					<div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+					  <span class="quote d-flex align-items-center justify-content-center">
+						<i class="icon-quote-left"></i>
+					  </span>
+					</div>
+					<div class="text">
+					  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					  <div class="pl-5">
+						  <p class="name">Garreth Smith</p>
+						  <span class="position">CEO Founder of Commercial Building</span>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="testimony-wrap p-4 pb-5">
+					<div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+					  <span class="quote d-flex align-items-center justify-content-center">
+						<i class="icon-quote-left"></i>
+					  </span>
+					</div>
+					<div class="text">
+					  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					  <div class="pl-5">
+						  <p class="name">Garreth Smith</p>
+						  <span class="position">CEO Founder of Interior Design</span>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="testimony-wrap p-4 pb-5">
+					<div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+					  <span class="quote d-flex align-items-center justify-content-center">
+						<i class="icon-quote-left"></i>
+					  </span>
+					</div>
+					<div class="text">
+					  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					  <div class="pl-5">
+						  <p class="name">Garreth Smith</p>
+						  <span class="position">Exterior Designer</span>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="testimony-wrap p-4 pb-5">
+					<div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+					  <span class="quote d-flex align-items-center justify-content-center">
+						<i class="icon-quote-left"></i>
+					  </span>
+					</div>
+					<div class="text">
+					  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					  <div class="pl-5">
+						  <p class="name">Garreth Smith</p>
+						  <span class="position">Landscape Designer</span>
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="testimony-wrap p-4 pb-5">
+					<div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+					  <span class="quote d-flex align-items-center justify-content-center">
+						<i class="icon-quote-left"></i>
+					  </span>
+					</div>
+					<div class="text">
+					  <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					  <div class="pl-5">
+						  <p class="name">Garreth Smith</p>
+						  <span class="position">System Analyst</span>
+						</div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+			  </div>
+		  </section>
+  
+		  <!-- Start Contact Section -->
+		  <section class="ftco-section contact-section" id="contact">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-4 heading-section text-center ftco-animate">
+			  <h2 class="mb-4">Contact Me</h2>
+			  <p>I will be very delighted to hear from you, looking forward</p>
+			</div>
+		  </div>
+  
+		  <div class="row mb-5">
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="align-self-stretch box text-center p-4">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-map-signs"></span>
+					</div>
+					<div>
+						<h3 class="mb-4">Address</h3>
+					  <p>Nkata bypass Okwuta Ibeku, Umuahia Nigeria</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="align-self-stretch box text-center p-4">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-phone2"></span>
+					</div>
+					<div>
+						<h3 class="mb-4">Contact Number</h3>
+					  <p><a href="tel://08104358838">+234810-4358-838</a></p>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="align-self-stretch box text-center p-4">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-paper-plane"></span>
+					</div>
+					<div>
+						<h3 class="mb-4">Email Address</h3>
+					  <p><a href="okeakarama@gmail.com">okeakarama@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="align-self-stretch box text-center p-4">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-globe"></span>
+					</div>
+					<div>
+						<h3 class="mb-4">Website</h3>
+					  <p><a href="#">yoursite.com</a></p>
+				  </div>
+				</div>
+			</div>
+		  </div>
+  
+		  <div class="row block-9">
+			<div class="col-md-6 ftco-animate">
+			  <form action="#" class="contact-form p-4 p-md-5 py-md-5">
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Your Name">
+				</div>
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Your Email">
+				</div>
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Subject">
+				</div>
+				<div class="form-group">
+				  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+				</div>
+				<div class="form-group">
+				  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+				</div>
+			  </form>
+			</div>
+  
+			<div class="col-md-6 d-flex align-items-stretch">
+				<div id="map"></div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+		  <!-- End Contact Section -->
 
 @endsection
