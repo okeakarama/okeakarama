@@ -224,8 +224,8 @@
 			<div class="container-fluid px-md-0">
 		  <div class="row no-gutters">
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-1.jpg') }});">
-				  <a href="{{ asset('asset/front/images/model-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/Work-1.jpg') }});">
+				  <a href="{{ asset('asset/front/images/Work-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -237,8 +237,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-2.jpg') }});">
-				  <a href="{{ asset('asset/front/images/model-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/Work-2.jpg') }});">
+				  <a href="{{ asset('asset/front/images/Work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
@@ -250,8 +250,8 @@
 			  </div>
 			</div>
 			<div class="col-md-4 ftco-animate">
-			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/model-3.jpg') }});">
-				  <a href="{{ asset('asset/front/images/model-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+			  <div class="model img d-flex align-items-end" style="background-image: url({{ asset('asset/front/images/Work-3.jpg') }});">
+				  <a href="{{ asset('asset/front/images/Work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 							  <span class="icon-expand"></span>
 						  </a>
 				  <div class="desc w-100 px-4">
